@@ -1,0 +1,151 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+.top{
+	margin-top: 2%;
+	background: #fff;
+}
+.navigation{
+	margin: 20% 15%;
+	text-align: center;
+	z-index:1;
+	position: relative;
+	background: #fff;
+}
+.main-button{
+	float: right;
+}
+.buy{
+	width: 30%;
+	display: inline-flex;
+}
+.heading{
+	text-align: center;
+	margin-top: -2%;
+}
+.mid{
+	margin-top: -2%;
+	background: url(../img/back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	border-bottom: 3px solid #C00;
+}
+.close-btn{
+    display: none;
+}
+.aa{
+	width: 15%;
+	border-radius: 50%;
+	margin-left: 8%;
+}
+.aa:hover{
+	width: 20%;
+	border-radius: 55%;
+	margin-left: 8%;
+	animation-duration: 1.5s;
+	animation-name: logo-jump;
+}
+@keyframes logo-jump{
+	from{
+		width: 15%;
+		border-radius: 55%;
+	}
+	50%{
+		width: 20%;
+		border-radius: 50%;
+	}
+	to{
+		width: 20%;
+		border-radius: 55%;
+	}
+}
+.bb{
+	width: 100%;
+	border-radius: 50%;
+	margin-left: 8%;
+}
+.main{
+    background: url(../images/explore.svg);
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    border-bottom:1px solid #C00 ;
+    padding-bottom: 20%;
+    margin:2% 0%;
+}
+.main-part{
+    background: transparent;
+    opacity: 0.9;
+    padding: 5% 5%;
+    color: #000;
+    margin-top: 15% ;
+    margin-bottom:2% ;
+}
+.button1{
+    margin:2% 2%; 
+    padding: 1% 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.button1:hover{
+	padding: 2% 4%;
+	font-size: 20px;
+}
+.link-item{
+	text-decoration: none;
+	color: #000;
+}
+.link-item:hover, .link-item:focus, .link-item:active{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+	animation-duration: 1.5s;
+	animation-name: jump;
+}
+
+@keyframes jump {
+  from {
+    font-size: 20px; 
+  }
+
+  25% {
+    font-size: 16px;
+  
+  }
+  75% {
+    font-size: 18px;
+  
+  }
+
+  to {
+    font-size: 25px;
+  }
+}
+.main-text{
+	animation-duration: 2s;
+	animation-name: tani;
+}
+.intro{
+	float: right;
+}
+.para{
+	font-size: 20px;
+}
+.margin-giver{
+	margin-bottom: 7%;
+}
+@media screen and (max-width: 426px){
+	.center-ok{
+		text-align: center;
+	}
+
+
+	}
+footer{
+	background-color: #ccc;
+}
+
+
+
