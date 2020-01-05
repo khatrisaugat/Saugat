@@ -42,8 +42,8 @@
 
                 </div>
                 <div class="col-sm-3 row">
-                    <a href="https://github.com/khatrisaugat"><img src="images/github.png" width="100%" class="aa"></a>
-                    <a href="https://www.facebook.com/khatri.saugat55"> <img src="images/facebook.png" width="100%" class="aa"></a>
+                    <a href="https://github.com/khatrisaugat" rel="noopener noreferrer" target="_blank"><img src="images/github.png" width="100%" class="aa"></a>
+                    <a href="https://www.facebook.com/khatri.saugat55" rel="noopener noreferrer" target="_blank"> <img src="images/facebook.png" width="100%" class="aa"></a>
                     <a href="mailto:khatri.saugat55@gmail.com"><img src="images/mail.png" width="100%" class="aa"></a>
                </div>
             </div>
