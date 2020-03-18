@@ -31,17 +31,13 @@
           console.log('in!', e.detail);
         });
 
-        window.addEventListener('scroll', function() {
-          scrollCounter.innerHTML = window.pageYOffset;
-        });
+        // window.addEventListener('scroll', function() {
+		//   scrollCounter.innerHTML = window.pageYOffset;
+		//   console.log(window.pageYOffset);
+        // });
       }
 	</script>
 	<script>
-		$('body').awesomeCursor('paper-plane',{
-			color: '#222',
-			hotspot: 'top right',
-			size: 30,
-			rotate: -20
-		});
+		$('body').awesomeCursor('pencil');
 	</script>
 </html>

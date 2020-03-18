@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="images/mylogo.png">
        <link rel="stylesheet" type="text/css" href="includes/swiper.min.css">
-       <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/fontawesome.min.js">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="includes/aos.css">
@@ -40,7 +40,7 @@
                 <div class="col-sm-6 heading">
                     <h1>
                         <div class="col-sm-12"><a href="index.php"><img src="images/mylogo.svg" class="aa"></a></div>
-                        <div class="col-sm-12">Saugat Khatri</div>
+                        <div class="col-sm-12"><span class="single-text">S</span><span class="single-text">a</span><span class="single-text">u</span><span class="single-text">g</span><span class="single-text">a</span><span class="single-text">t</span> <span class="single-text">K</span><span class="single-text">h</span><span class="single-text">a</span><span class="single-text">t</span><span class="single-text">r</span><span class="single-text">i</span></div>
                     </h1>
 
                 </div>

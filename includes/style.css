@@ -33,7 +33,8 @@ body{
 	border-bottom: 3px solid #C00;
 }
 .close-btn{
-    display: none;
+	display: none;
+	font-size: 2rem;
 }
 .aa{
 	width: 15%;
