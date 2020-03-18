@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="images/mylogo.png">
+       <link rel="stylesheet" type="text/css" href="includes/swiper.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="includes/style.css">
-    
+ 
     <title>Saugat Khatri</title>
 </head>
 <body>
@@ -25,7 +27,7 @@
                         <div class="collapse" id="mynavbar">
                             <ul class="nav navbar navigation container">
                                 <li><a class="active link-item para" href="#">About</a></li>
-                                <li><a href="skills.php" class="link-item para">Skills</a></li>
+                                <li><a href="CV.pdf" class="link-item para">CV</a></li>
                                 <li><a href="notes.php" class="link-item para">Notes</a></li>
                             </ul>                                  
                         </div>
