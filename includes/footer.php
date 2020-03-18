@@ -13,5 +13,35 @@
 		</div>
 	</footer>
 	</body>
+	<script src="includes/jquery-1.11.3.min.js"></script>
+	<script src="includes/highlight.min.js"></script>
+	<script src="includes/aos.js"></script>
 	<script src="includes/app.js"></script>
+	<script src="includes/jquery.awesome-cursor.js"></script>
+	<script>
+      document.querySelector('html').classList.remove('no-js');
+      if (!window.Cypress) {
+        const scrollCounter = document.querySelector('.js-scroll-counter');
+
+        AOS.init({
+          mirror: true
+        });
+
+        document.addEventListener('aos:in', function(e) {
+          console.log('in!', e.detail);
+        });
+
+        window.addEventListener('scroll', function() {
+          scrollCounter.innerHTML = window.pageYOffset;
+        });
+      }
+	</script>
+	<script>
+		$('body').awesomeCursor('paper-plane',{
+			color: '#222',
+			hotspot: 'top right',
+			size: 30,
+			rotate: -20
+		});
+	</script>
 </html>

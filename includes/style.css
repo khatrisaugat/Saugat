@@ -81,18 +81,23 @@ body{
     padding: 5% 5%;
     color: #000;
     margin-top: 15% ;
-    margin-bottom:2% ;
+	margin-bottom:2% ;
 }
 .button1{
     margin:2% 2%; 
-    padding: 1% 3%;
+    padding: 1% 1%;
     margin-left: 20%;
-    margin-right: 20%;
+	margin-right: 20%;
+	border: rgb(28, 53, 59) 3px solid;
+	background: #000;
+	position: relative;
 }
 .button1:hover{
-	padding: 2% 4%;
-	font-size: 20px;
+	border: #222 3px solid;
+	color: #222;
+	background: #fff;
 }
+
 .link-item{
 	text-decoration: none;
 	color: #000;
@@ -167,6 +172,11 @@ body{
 }
 footer{
 	background-color: #ccc;
+}
+.single-text:hover{
+	color:#000066;
+	font-size: 50px;
+	position: relative;
 }
 
 
